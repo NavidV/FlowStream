@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>FlowStream.Connect.Portal.ApiClient</RootNamespace>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../FlowStream.Connect.Shared/FlowStream.Connect.Shared.csproj" />
+  </ItemGroup>
+</Project>

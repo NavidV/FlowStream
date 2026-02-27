@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowStream.Connect.Api", "src/FlowStream.Connect.Api/FlowStream.Connect.Api.csproj", "{B3E70AB5-AC4A-4A3A-A1F8-E2122DB8A830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowStream.Connect.Worker", "src/FlowStream.Connect.Worker/FlowStream.Connect.Worker.csproj", "{B9E07D11-80C8-41FD-8F5D-D3225594955C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowStream.Connect.Shared", "src/FlowStream.Connect.Shared/FlowStream.Connect.Shared.csproj", "{6A9DCC87-6252-4884-B8A0-3A48BE9585C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowStream.Connect.Portal", "src/FlowStream.Connect.Portal/FlowStream.Connect.Portal.csproj", "{9C1FF8D6-66D1-4D01-BF58-8AE92CE86CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowStream.Connect.Portal.ApiClient", "src/FlowStream.Connect.Portal.ApiClient/FlowStream.Connect.Portal.ApiClient.csproj", "{CE205E89-4BC2-49F1-9182-57B7983FB102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E70AB5-AC4A-4A3A-A1F8-E2122DB8A830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E70AB5-AC4A-4A3A-A1F8-E2122DB8A830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E70AB5-AC4A-4A3A-A1F8-E2122DB8A830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E70AB5-AC4A-4A3A-A1F8-E2122DB8A830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E07D11-80C8-41FD-8F5D-D3225594955C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E07D11-80C8-41FD-8F5D-D3225594955C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E07D11-80C8-41FD-8F5D-D3225594955C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E07D11-80C8-41FD-8F5D-D3225594955C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9DCC87-6252-4884-B8A0-3A48BE9585C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9DCC87-6252-4884-B8A0-3A48BE9585C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9DCC87-6252-4884-B8A0-3A48BE9585C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9DCC87-6252-4884-B8A0-3A48BE9585C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1FF8D6-66D1-4D01-BF58-8AE92CE86CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1FF8D6-66D1-4D01-BF58-8AE92CE86CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1FF8D6-66D1-4D01-BF58-8AE92CE86CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1FF8D6-66D1-4D01-BF58-8AE92CE86CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE205E89-4BC2-49F1-9182-57B7983FB102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE205E89-4BC2-49F1-9182-57B7983FB102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE205E89-4BC2-49F1-9182-57B7983FB102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE205E89-4BC2-49F1-9182-57B7983FB102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
