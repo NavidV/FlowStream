@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <PropertyGroup>
+    <RootNamespace>FlowStream.Connect.Portal</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0-preview.1.25120.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.0-preview.1.25120.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../FlowStream.Connect.Portal.ApiClient/FlowStream.Connect.Portal.ApiClient.csproj" />
+    <ProjectReference Include="../FlowStream.Connect.Shared/FlowStream.Connect.Shared.csproj" />
+  </ItemGroup>
+</Project>
